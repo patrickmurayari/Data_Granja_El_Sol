@@ -4,7 +4,6 @@
 data/interim/
 
 # Ignorar datos procesados, ya que son generados por el script/notebook
-data/processed/
 
 # Se recomienda ignorar logs, caches y entornos virtuales
 *.log
