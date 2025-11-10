@@ -1,0 +1,20 @@
+# .gitignore
+
+# Ignorar datos intermedios, ya que son generados por el script/notebook
+data/interim/
+
+# Ignorar datos procesados, ya que son generados por el script/notebook
+data/processed/
+
+# Se recomienda ignorar logs, caches y entornos virtuales
+*.log
+.DS_Store
+.vscode/
+
+# Ignorar entornos virtuales creados con venv o conda
+venv/
+.venv/
+envs/
+
+# IGNORAR ARCHIVOS RAW MUY GRANDES (NO RECOMENDADO PARA REPRODUCIBILIDAD, PERO NECESARIO POR EL LÍMITE DE GITHUB)
+data/raw/
